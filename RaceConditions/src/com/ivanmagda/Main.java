@@ -3,7 +3,10 @@ package com.ivanmagda;
 public class Main {
 
     public static void main(String[] args) {
-        // Race Conditions in Critical Sections.
+
+        /**
+         * 1. Race Conditions in Critical Sections.
+         */
 
         Counter counter = new Counter();
 
@@ -29,7 +32,10 @@ public class Main {
             System.out.println("Count threadB: " + counter.count);
         }).start();
 
-        // Preventing race conditions using synchronized blocks.
+        /**
+         * 2. Preventing race conditions using synchronized blocks.
+         */
+
         TwoSums twoSums = new TwoSums();
 
         new Thread(() -> {
