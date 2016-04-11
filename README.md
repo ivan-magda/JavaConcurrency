@@ -14,3 +14,6 @@ Learn about concurrency foundation in Java.
 * Thread Safety and Immutability:
 [tutorial](http://tutorials.jenkov.com/java-concurrency/thread-safety-and-immutability.html),
 [code](../master/ThreadSafety-immutability/src/com/ivanmagda)
+* Java Synchronized Blocks:
+[tutorial](http://tutorials.jenkov.com/java-concurrency/synchronized.html),
+[code](../master/SynchronizedBlocks/src/com/ivanmagda)
