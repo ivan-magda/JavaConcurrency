@@ -17,3 +17,15 @@ Learn about concurrency foundation in Java.
 * Java Synchronized Blocks:
 [tutorial](http://tutorials.jenkov.com/java-concurrency/synchronized.html),
 [code](../master/SynchronizedBlocks/src/com/ivanmagda)
+* Java Volatile Keyword
+[tutorial](http://tutorials.jenkov.com/java-concurrency/volatile.html),
+[code](../master/VolatileKeyword/src/com/ivanmagda)
+* Java ThreadLocal
+[tutorial](http://tutorials.jenkov.com/java-concurrency/threadlocal.html),
+[code](../master/ThreadLocal/src/com/ivanmagda)
+* Thread Signaling
+[tutorial](http://tutorials.jenkov.com/java-concurrency/thread-signaling.html),
+[code](../master/ThreadSignaling/src/com/ivanmagda)
+* Deadlock
+[tutorial](http://tutorials.jenkov.com/java-concurrency/deadlock.html),
+[code](../master/ThreadDeadlock/src/com/ivanmagda)
