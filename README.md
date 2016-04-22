@@ -7,6 +7,8 @@ Learn about concurrency foundation in Java.
 [code](../master/StartThread/src/com/ivanmagda)
 * Unordered Start Java Threads: 
 [code](../master/StartThreadsExample/src/com/ivanmagda)
+* Threads Interference Example: 
+[code](../master/Interference/src/com/ivanmagda)
 * Race Conditions and Critical Sections:
 [tutorial](http://tutorials.jenkov.com/java-concurrency/race-conditions-and-critical-sections.html),
 [code](../master/RaceConditions/src/com/ivanmagda)
