@@ -33,3 +33,6 @@ Learn about concurrency foundation in Java.
 * Deadlock
 [tutorial](http://tutorials.jenkov.com/java-concurrency/deadlock.html),
 [code](../master/ThreadDeadlock/src/com/ivanmagda)
+
+### Other
+* Concurrent evaluation of the integral. [ConcurrentIntegralEvaluation](..master/ConcurrentIntegralEvaluation/src/com/ivanmagda)
