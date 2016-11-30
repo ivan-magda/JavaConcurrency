@@ -17,10 +17,12 @@ class FunctionWorker implements Runnable {
         this.h = h;
     }
 
-    private synchronized void calculate() {
+    private void calculate() {
+        double result = 0;
         for (double x = a; x < b; x += h) {
-            functionResult.appendValue(0.5 * (function.func(x) + function.func(x + h)) * h);
+            result += 0.5 * (function.func(x) + function.func(x + h)) * h;
         }
+        functionResult.appendValue(result);
     }
 
     @Override
